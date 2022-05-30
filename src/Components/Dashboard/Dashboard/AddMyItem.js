@@ -1,12 +1,19 @@
 import React from 'react';
 import { useForm } from 'react-hook-form';
+import swal from 'sweetalert';
+
 
 const AddMyItem = () => {
     const { register, handleSubmit } = useForm();
 
     const onSubmit = data => {
-        console.log(data);
-        const url = `http://localhost:5000/addmyitem`;
+        swal({
+            title: "Good job!",
+            text: "Your Product Added",
+            icon: "success",
+            button: "Done",
+        });
+        const url = `https://serene-ridge-16672.herokuapp.com/addmyitem`;
         fetch(url, {
             method: 'POST',
             headers: {

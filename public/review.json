@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Joe Hart",
+        "img": "https://i.ibb.co/rMXNbzw/client-1.jpg",
+        "reviewTitle": "I can nott even begin to describe what an incredible team Big Imprint is. Their enthusiasm and support have been a big part of making our product not only a national brand, but an international one as well. We love these guys!",
+        "rating": "5"
+    },
+    {
+        "name": "Kavin Philips",
+        "img": "https://i.ibb.co/khKjfRD/client-2.jpg",
+        "reviewTitle": "A full 90% of our new calls come from people and companies that have found our information online. Our website and Google AdWords campaign through Big Imprint has helped expand our customer base. Definitely increased our bottom line.",
+        "rating": "4"
+    },
+    {
+        "name": "Cole Palmar",
+        "img": "https://i.ibb.co/HDrLSHr/client-3.jpg",
+        "reviewTitle": "Thanks so much for the website, it turned out really sharp and it looks one million times better than before! I am really happy with our new website!",
+        "rating": "5"
+    }
+]

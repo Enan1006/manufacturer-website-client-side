@@ -23,6 +23,7 @@ import MyProfile from './Components/Dashboard/MyProfile';
 import RequireAdmin from './Components/SingIn/RequireAdmin';
 import AllOrder from './Components/Dashboard/AllOrder';
 import Users from './Components/Dashboard/Users';
+import MyOrders from './Components/Dashboard/MyOrders';
 
 function App() {
   return (
@@ -47,16 +48,16 @@ function App() {
 
           <Route index element={<MyProfile></MyProfile>}></Route>
 
-          {/* <Route path="users" element={<RequireAdmin><Users></Users></RequireAdmin>}></Route> */}
+          <Route path="users" element={<RequireAdmin><Users></Users></RequireAdmin>}></Route>
           <Route path="users" element={<Users></Users>}></Route>
 
 
           <Route path="allorders" element={<AllOrder />}></Route>
 
           <Route path="manageproducts" element={<ManageProducts></ManageProducts>}></Route>
-          {/* <Route path="myorders" element={<MyOrders></MyOrders>}></Route> */}
+          <Route path="myorders" element={<MyOrders></MyOrders>}></Route>
 
-          {/* <Route path="addreview" element={<AddNewReview></AddNewReview>}></Route> */}
+          <Route path="addreview" element={<AddReview />}></Route>
           <Route path="addproduct" element={<AddMyItem></AddMyItem>}></Route>
 
 

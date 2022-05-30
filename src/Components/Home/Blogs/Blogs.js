@@ -10,7 +10,7 @@ const Blogs = () => {
         <div className="card lg:w-full bg-base-100 shadow-xl ">
           <div className="card-body">
             <h2 className="card-title font-bold">
-              What are the different ways to manage a state in a React application?
+            What are the different ways to manage a state in a React application?
             </h2>
             <p>
               <b>
@@ -27,7 +27,7 @@ const Blogs = () => {
         <div className="card lg:w-full bg-base-100 shadow-xl ">
           <div className="card-body">
             <h2 className="card-title  font-bold">
-              What is a unit test? Why should write unit tests?
+            What is a unit test? Why should write unit tests?
             </h2>
             <p>
               Unit tests are typically automated tests written and run by software developers to ensure that a section of an application meets its design and behaves as intended. In procedural programming, a unit could be an entire module, but it is more commonly an individual function or procedure.
@@ -42,17 +42,17 @@ const Blogs = () => {
               2. Memoizing React components to prevent unnecessary re-renders. <br />
               3. Code-splitting in React using dynamic import() <br />
               4. Windowing or list virtualization in React. <br />
-              5. Lazy loading images in React.
+              5. Lazy loading images in React. 
             </p>
           </div>
         </div>
         <div className="card lg:w-full bg-base-100 shadow-xl ">
           <div className="card-body">
             <h2 className="card-title  font-bold">
-              How does prototypical inheritance work?
+            How does prototypical inheritance work?
             </h2>
             <p>
-              The Prototypal Inheritance is a feature in javascript used to add methods and properties in objects. It is a method by which an object can inherit the properties and methods of another object. Traditionally, in order to get and set the [[Prototype]] of an object, we use Object. getPrototypeOf and Object.
+            The Prototypal Inheritance is a feature in javascript used to add methods and properties in objects. It is a method by which an object can inherit the properties and methods of another object. Traditionally, in order to get and set the [[Prototype]] of an object, we use Object. getPrototypeOf and Object.
             </p>
           </div>
         </div>
@@ -61,7 +61,7 @@ const Blogs = () => {
             <h2 className="card-title font-bold">
               {" "}
               Why you do not set the state directly in React?
-            </h2>
+            </h2> 
             <p>
               <b>One should never update the state directly because of the following reasons:</b> <br />
               1. If you update it directly, calling the setState() afterward may just replace the update you made. <br />
